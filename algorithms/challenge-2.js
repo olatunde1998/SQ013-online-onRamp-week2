@@ -4,11 +4,11 @@ function sumOfTwoSmallestNums(arr){
     return result
 } 
 
-console.log(sumOfTwoSmallestNums([80, 33, 44,55,1,2,14])); 
+// console.log(sumOfTwoSmallestNums([80, 33, 44,55,1,2,14])); 
 // to return 3
-console.log(sumOfTwoSmallestNums([12,34,23,12,67])); 
+// console.log(sumOfTwoSmallestNums([12,34,23,12,67])); 
 // to return 24 
-console.log(sumOfTwoSmallestNums([999,234,567,78,2])); 
+// console.log(sumOfTwoSmallestNums([999,234,567,78,2])); 
     // to return 80 
 
 module.exports = sumOfTwoSmallestNums

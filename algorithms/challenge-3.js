@@ -5,11 +5,11 @@ function alphabetPosition(text) {
         let answer = letters.indexOf(text[i]) + 1
         result.push(answer)
     }
-    return result
+    return result.join(" ")
 }
-console.log(alphabetPosition('developer'));
-console.log(alphabetPosition('decadev'));
-console.log(alphabetPosition('success'));
+// console.log(alphabetPosition('developer'));
+// console.log(alphabetPosition('decadev'));
+// console.log(alphabetPosition('success'));
 
 module.exports = alphabetPosition
   

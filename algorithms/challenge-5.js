@@ -1,12 +1,11 @@
 function accum(str) {
   let acc = ''
+  let acc2 = ''
   for (let i = 0; i < str.length; i++) {
-    acc += str[i].toUpperCase()
-    for (let j = 0; j < i; j++) {
-      acc += str[i].toLowerCase()
-    }
+    acc2 = str[i].toUpperCase();
+    acc += `${acc2} ${str[i].repeat(i + 1).slice(1).padEnd(i + 2, '_')}`;
   }
-  return acc
+  return acc.trim()
 }
 module.exports = accum
 
